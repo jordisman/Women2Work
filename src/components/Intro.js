@@ -17,7 +17,7 @@ class UserSignup extends React.Component {
 
   render() {
     const underline = {textDecoration: "none"};
-    const textColor = {color: "white"};
+    const textColor = {color: "#F55E61"};
 
     return (
       <div>
@@ -36,7 +36,6 @@ class UserSignup extends React.Component {
 
           <div className={css.item2}>
             <div><img src={match} className={css.star} /></div>
-
             <p className={css.smallTitle}>Personalized Matchmaking</p>
             <p className={css.text}>
               Upgrade your skills with the help of a mentor or find a mentee to connect with and help them on their career journey.
@@ -58,9 +57,14 @@ class UserSignup extends React.Component {
           </div>
 
           <div className={css.item5}>
-            <NavLink to="/UserForm" style={{...underline, ...textColor}}>
-              Sign up with email
-            </NavLink>
+            <div className={css.signup}>
+              <NavLink to="/UserForm" style={{...underline, ...textColor}}>
+                Sign up with email
+              </NavLink>
+            </div>
+            <div div className={css.linkedinWrap}>
+              <img src={linkedin} className={css.linkedin} />
+            </div >
           </div>
 
         </div>
