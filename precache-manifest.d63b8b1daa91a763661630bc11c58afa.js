@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c4f81ad6d3aecd8f5b15d6b9195d421",
+    "revision": "fbf062620b98b29ce38ab12a3c9f1e4d",
     "url": "/new-app/index.html"
   },
   {
-    "revision": "193b369f3f2494fa9aa7",
-    "url": "/new-app/static/css/main.a8ce7dad.chunk.css"
+    "revision": "9824044d23ddbe12bbe8",
+    "url": "/new-app/static/css/main.a8b10777.chunk.css"
   },
   {
-    "revision": "d5500aa0a3fd722a83c8",
-    "url": "/new-app/static/js/2.a8c225f8.chunk.js"
+    "revision": "cbd0a0b0b532088b34a8",
+    "url": "/new-app/static/js/2.504c7c1a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/new-app/static/js/2.a8c225f8.chunk.js.LICENSE.txt"
+    "url": "/new-app/static/js/2.504c7c1a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "193b369f3f2494fa9aa7",
-    "url": "/new-app/static/js/main.89b243ab.chunk.js"
+    "revision": "9824044d23ddbe12bbe8",
+    "url": "/new-app/static/js/main.f27d69fd.chunk.js"
   },
   {
     "revision": "4a9496bb6da5024f1918",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0c8237a4c736596c7e24df69f0354993",
     "url": "/new-app/static/media/pinkCircle.0c8237a4.png"
+  },
+  {
+    "revision": "0f0462f377e6f3bc4aa33fea91284d4b",
+    "url": "/new-app/static/media/smiley.0f0462f3.png"
   },
   {
     "revision": "82d3895d931b849172b51b9639445c4a",
