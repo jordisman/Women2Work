@@ -1,7 +1,8 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import LandingPage from './LandingPage';
-import Mentee from './Mentee';
+import Welcome from './Welcome';
+import Member from './Member';
 import Intro from './Intro';
 
 import UserForm from './UserForm';
@@ -17,8 +18,8 @@ class Router extends React.Component {
             <Route exact path='/' component={LandingPage} />
             <Route path='/Intro' component={Intro} />
             <Route path='/UserForm' component={UserForm} />
-            <Route path='/Mentee' component={Mentee} />
-
+            <Route path='/Welcome' component={Welcome} />
+            <Route path='/Member' component={Member} />
 
 
         </BrowserRouter>

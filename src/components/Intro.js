@@ -13,7 +13,9 @@ import star from '../images/star.png';
 import yellowCircle from '../images/yellowCircle.png';
 import linkedin from '../images/linkedin.png'
 
-class UserSignup extends React.Component {
+// Join women 2 work
+
+class Intro extends React.Component {
 
   render() {
     const underline = {textDecoration: "none"};
@@ -74,4 +76,4 @@ class UserSignup extends React.Component {
   }
 }
 
-export default UserSignup;
+export default Intro;

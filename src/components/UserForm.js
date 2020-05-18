@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Mentee from './Mentee';
+import Welcome from './Welcome';
 import {NavLink} from 'react-router-dom';
 import css from '../styles/form.module.css';
 import pic1 from '../images/pic1.png';
@@ -121,7 +121,7 @@ class UserForm extends React.Component {
 
               <div className={css.btnWrap}>
                 <button className={css.connectBtn}>
-                  <NavLink to="./Mentee" style={{ ...underline, ...textColor }}>
+                  <NavLink to="./Welcome" style={{ ...underline, ...textColor }}>
                     Ready for connection!
                   </NavLink>
                 </button>

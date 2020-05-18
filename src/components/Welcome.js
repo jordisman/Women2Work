@@ -1,14 +1,16 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-// import NavMember from './NavMember';
-import css from '../styles/mentee.module.css';
+import NavbarMember from './NavbarMember';
+import css from '../styles/welcome.module.css';
 import footer from './Footer';
 import bubbles from '../images/dots.png';
 import smiley from '../images/smiley.png';
 import yellowCircle from '../images/yellowCircle.png';
 import Footer from './Footer';
 
-class Mentee extends React.Component {
+// Hello Jane, welcome page
+
+class Welcome extends React.Component {
 
   render() {
     const underline = {textDecoration: "none"};
@@ -16,7 +18,7 @@ class Mentee extends React.Component {
 
     return (
       <div>
-
+        <NavbarMember />
         <div className={css.menteeContainer}>
 
         <div className={css.item40}>
@@ -67,10 +69,7 @@ class Mentee extends React.Component {
 
             <p className={css.secondTitle}>Be a Mentor</p>
             <p>
-              Provide Guidance to 3 Mentees at a time
-              Host Workshops
-              Build a Personal Brand
-
+              Provide Guidance to 3 Mentees at a time Host Workshops Build a Personal Brand
             </p>
             <div className={css.redBtn}>Be a Mentor</div>
           </div>
@@ -88,7 +87,7 @@ class Mentee extends React.Component {
               for personalized guidance on how to reach your goals
             </p>
             <div className={css.redBtn}>
-              <NavLink to="./BeMentee" style={{...underline, ...textColor}}>
+              <NavLink to="./Member" style={{...underline, ...textColor}}>
                 Be a Mentee
               </NavLink>
             </div>
@@ -105,4 +104,4 @@ class Mentee extends React.Component {
   }
 }
 
-export default Mentee;
+export default Welcome;
