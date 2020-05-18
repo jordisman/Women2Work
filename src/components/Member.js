@@ -65,8 +65,34 @@ class Member extends React.Component {
               </div>
             </div>
 
-          {/* Ads */}
-          <div className={css.item23}></div>
+
+          {/* Events */}
+          <div className={css.item23}>
+
+            <div className={css.ad} >
+              <div className={css.sponserTitle}>Sponsored Events</div>
+              <img className={css.eventPic} src={event3} alt="" />
+              <p className={css.eventText}>
+                <span className={css.redText}>Tues, 10:00am 5/5</span><br /> Speaker series for business leaders
+              </p>
+            </div>
+
+            <div className={css.ad}>
+              <img className={css.eventPic} src={event2} alt="" />
+              <p>
+                <span className={css.redText}>Tues, 10:00am 5/12</span><br />Networking series for business leaders
+              </p>
+            </div>
+
+            <div className={css.ad}>
+              <img className={css.eventPic} src={event1} alt=""/>
+              <p>
+                <span className={css.redText}>Tues, 10:00am 5/19 </span><br />Leadership series for Product managers
+              </p>
+            </div>
+          </div>
+
+
 
           <div className={css.item24}>
             <div className={css.boxRed}>
@@ -144,25 +170,15 @@ class Member extends React.Component {
 
 
           <div className={css.item30}>
-            <div className={css.sponserTitle}>Sponsored Events by Dream Force </div>
-            <img className={css.eventPic} src={event3} />
-            <p className={css.eventText}>
-              <span className={css.redText}>Tues, 10:00am 5/5</span><br /> Speaker series for business leaders
-            </p>
+
           </div>
 
           <div className={css.item31}>
-            <img className={css.eventPic2} src={event2} />
-            <p>
-              <span className={css.redText}>Tues, 10:00am 5/12</span><br />Networking series for business leaders
-            </p>
+
           </div>
 
           <div className={css.item32}>
-            <img className={css.eventPic1} src={event1} alt=""/>
-            <p>
-              <span className={css.redText}>Tues, 10:00am 5/19 </span><br />Leadership series for Product managers
-            </p>
+
           </div>
 
 
