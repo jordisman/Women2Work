@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import css from '../styles/member.module.css';
+import css from '../styles/mentee.module.css';
 import NavbarMember from './NavbarMember';
 import Footer from './Footer';
 
@@ -20,7 +20,7 @@ import yellowCircle from '../images/yellowCircle.png';
 
 // How it works, view our Mentors
 
-class Member extends React.Component {
+class Mentee extends React.Component {
 
   render() {
     return (
@@ -192,4 +192,4 @@ class Member extends React.Component {
   }
 }
 
-export default Member;
+export default Mentee;

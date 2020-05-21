@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import styles from '../styles/styles.module.css';
 import logo from '../images/Logo.png';
+import pic1 from '../images/pic1.png';
 
 
 const NavbarMember = () => {
@@ -10,7 +11,7 @@ const NavbarMember = () => {
 
   return (
     <div className={styles.navbar}>
-      <img className={styles.logo} src={logo} />
+      <img className={styles.logo} src={logo} alt="" />
 
       <ul className={styles.navUl}>
         <li className={styles.navLi}>
@@ -23,9 +24,9 @@ const NavbarMember = () => {
             Inbox
           </NavLink>
         </li>
-        <li className={` ${styles.navLi} ${styles.signUp} `}>
+        <li className={` ${styles.navLi} `}>
           <NavLink to="Signup" style={{ ...underline, ...textColor }}>
-            Sign Up
+            <img src={pic1} className={styles.miniProfile} />
           </NavLink>
         </li>
       </ul>

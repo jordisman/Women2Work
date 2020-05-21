@@ -26,7 +26,7 @@ class LandingPage extends React.Component {
 
           <div className={styles.itemA}>
             <div className={styles.bigCircle}>
-              <img className={styles.pinkCircle} src={pinkCircle} />
+              <img className={styles.pinkCircle} src={pinkCircle} alt="" />
             </div>
             <h1>Women2Work</h1>
             <p className={styles.red}>
@@ -44,7 +44,7 @@ class LandingPage extends React.Component {
           </div>
 
           <div className={styles.itemB}>
-            <img src={faces} alt={faces} className={styles.faces} />
+            <img src={faces} alt="faces" className={styles.faces} />
           </div>
 
           <div className={styles.itemC}>
@@ -54,7 +54,7 @@ class LandingPage extends React.Component {
           </div>
 
           <div className={styles.itemD}>
-            <img src={match} className={styles.icon} />
+            <img src={match} alt="" className={styles.icon} />
             <h4>Personalized Matchmaking</h4>
             <p className={styles.featText}>
               Upgrade your skills with the help of a mentor or find a mentee to
@@ -63,7 +63,7 @@ class LandingPage extends React.Component {
           </div>
 
           <div className={styles.itemE}>
-            <img src={badge} className={styles.icon} />
+            <img src={badge} alt="" className={styles.icon} />
             <h4>Networking</h4>
             <p className={styles.featText}>
               Connect with peers and mentors based on industry, hobbies, and
@@ -72,7 +72,7 @@ class LandingPage extends React.Component {
           </div>
 
           <div className={styles.itemF}>
-            <img src={calendar} className={styles.icon} />
+            <img src={calendar} alt="" className={styles.icon} />
             <h4>Events and Workshops</h4>
             <p className={styles.featText}>
               Connect with others based on your passion, skills, and hobbies.
@@ -80,7 +80,7 @@ class LandingPage extends React.Component {
           </div>
 
           <div className={styles.itemG}>
-            <img src={star} className={styles.icon} />
+            <img src={star} alt="" className={styles.icon} />
             <h4>Referral Program</h4>
             <p className={styles.featText}>
               Mentees who complete W2W Guidelines and are approved by Mentors

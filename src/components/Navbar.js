@@ -24,7 +24,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className={` ${styles.navLi} ${styles.signUp} `}>
-          <NavLink to="Signup" style={{ ...underline, ...textColor }}>
+          <NavLink to="UserForm" style={{ ...underline, ...textColor }}>
             Sign Up
           </NavLink>
         </li>
