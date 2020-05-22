@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/women2work/static/css/main.e36c075b.chunk.css",
-    "main.js": "/women2work/static/js/main.aa119086.chunk.js",
-    "main.js.map": "/women2work/static/js/main.aa119086.chunk.js.map",
+    "main.css": "/women2work/static/css/main.0ffbf9de.chunk.css",
+    "main.js": "/women2work/static/js/main.bea114b0.chunk.js",
+    "main.js.map": "/women2work/static/js/main.bea114b0.chunk.js.map",
     "runtime-main.js": "/women2work/static/js/runtime-main.ac5cd851.js",
     "runtime-main.js.map": "/women2work/static/js/runtime-main.ac5cd851.js.map",
-    "static/js/2.5f3c75ca.chunk.js": "/women2work/static/js/2.5f3c75ca.chunk.js",
-    "static/js/2.5f3c75ca.chunk.js.map": "/women2work/static/js/2.5f3c75ca.chunk.js.map",
+    "static/js/2.36b813a8.chunk.js": "/women2work/static/js/2.36b813a8.chunk.js",
+    "static/js/2.36b813a8.chunk.js.map": "/women2work/static/js/2.36b813a8.chunk.js.map",
     "index.html": "/women2work/index.html",
-    "precache-manifest.940a38c78227ab935b0f74a0a9eec93f.js": "/women2work/precache-manifest.940a38c78227ab935b0f74a0a9eec93f.js",
+    "precache-manifest.c30d9c2c96fe0b25928711114400650c.js": "/women2work/precache-manifest.c30d9c2c96fe0b25928711114400650c.js",
     "service-worker.js": "/women2work/service-worker.js",
-    "static/css/main.e36c075b.chunk.css.map": "/women2work/static/css/main.e36c075b.chunk.css.map",
-    "static/js/2.5f3c75ca.chunk.js.LICENSE.txt": "/women2work/static/js/2.5f3c75ca.chunk.js.LICENSE.txt",
+    "static/css/main.0ffbf9de.chunk.css.map": "/women2work/static/css/main.0ffbf9de.chunk.css.map",
+    "static/js/2.36b813a8.chunk.js.LICENSE.txt": "/women2work/static/js/2.36b813a8.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/women2work/static/media/Logo.ee64b6d5.png",
     "static/media/badge.png": "/women2work/static/media/badge.8cfcad2e.png",
     "static/media/dots.png": "/women2work/static/media/dots.6789e781.png",
-    "static/media/event1.png": "/women2work/static/media/event1.6afdc62e.png",
-    "static/media/event2.jpg": "/women2work/static/media/event2.df877667.jpg",
-    "static/media/event3.png": "/women2work/static/media/event3.339e76a5.png",
+    "static/media/event1.png": "/women2work/static/media/event1.8f1a87db.png",
+    "static/media/event2.jpg": "/women2work/static/media/event2.d92e65c5.jpg",
+    "static/media/event3.png": "/women2work/static/media/event3.ec5b093e.png",
     "static/media/faces.png": "/women2work/static/media/faces.49dbff2b.png",
     "static/media/match.png": "/women2work/static/media/match.6182e7b3.png",
     "static/media/pic1.png": "/women2work/static/media/pic1.0a0e918f.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ac5cd851.js",
-    "static/js/2.5f3c75ca.chunk.js",
-    "static/css/main.e36c075b.chunk.css",
-    "static/js/main.aa119086.chunk.js"
+    "static/js/2.36b813a8.chunk.js",
+    "static/css/main.0ffbf9de.chunk.css",
+    "static/js/main.bea114b0.chunk.js"
   ]
 }
