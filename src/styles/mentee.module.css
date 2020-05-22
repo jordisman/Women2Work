@@ -8,6 +8,10 @@
   /* border: 2px solid red; */
 }
 
+/* ==================================
+============= Top Intro =============
+===================================== */
+
 .item20 {
   grid-area: how-it-works;
   grid-column: 2 / 4;
@@ -37,6 +41,12 @@
       font-size: 25px;
       margin-top: 70px;
     }
+
+
+/* ==================================
+============ Jane Profile ===========
+===================================== */
+
 
 .item21 {
   grid-area: jane-profile;
@@ -185,10 +195,6 @@
   margin-left: -20px;
 }
 
-.redText {
-  color: #F55E61;
-}
-
 .bubbles {
   position: relative;
   height: 420px;
@@ -207,6 +213,12 @@
   height: 200px;
 }
 
+
+/* ==================================
+=============== Event ===============
+===================================== */
+
+
 .ad {
   width: 70%;
   margin: auto;
@@ -215,16 +227,29 @@
 
 .sponserTitle {
   font-size: 24px;
-  color: #525252;
 }
 
 .eventPic {
   overflow: hidden;
   border-radius: 10px;
   width: 99%;
-  height: 140px;
   margin-top: 20px;
 }
+
+.redText {
+  color: #F55E61;
+}
+
+.eventText {
+  font-size: 12px;
+  color: black;
+}
+
+
+/* ==================================
+=============== Members =============
+===================================== */
+
 
 .boxRed {
   width: 80%;

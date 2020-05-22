@@ -68,26 +68,28 @@ class Mentee extends React.Component {
 
           {/* Events */}
           <div className={css.item23}>
-
-            <div className={css.ad} >
+            <div className={css.ad}>
               <div className={css.sponserTitle}>Sponsored Events</div>
               <img className={css.eventPic} src={event3} alt="" />
-              <p className={css.eventText}>
-                <span className={css.redText}>Tues, 10:00am 5/5</span><br /> Speaker series for business leaders
+              <p>
+                <span className={css.redText}>July 15-17, 2020</span><br />
+                <span className={css.eventText}>Virtual AI Event for Business Leaders</span>
               </p>
             </div>
 
             <div className={css.ad}>
               <img className={css.eventPic} src={event2} alt="" />
               <p>
-                <span className={css.redText}>Tues, 10:00am 5/12</span><br />Networking series for business leaders
+                <span className={css.redText}>May 9 - 11, 2020</span><br />
+                <span className={css.eventText}>Global Virtual Hackathon Benefiting Frontline Healthcare Workers</span>
               </p>
             </div>
 
             <div className={css.ad}>
               <img className={css.eventPic} src={event1} alt=""/>
               <p>
-                <span className={css.redText}>Tues, 10:00am 5/19 </span><br />Leadership series for Product managers
+                <span className={css.redText}>May 19, 2020 Tues, 6:00pm</span><br />
+                <span className={css.eventText}>Engineering Leadership Speaker Series For Product Teams</span>
               </p>
             </div>
           </div>

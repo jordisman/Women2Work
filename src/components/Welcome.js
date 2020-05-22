@@ -27,7 +27,6 @@ class Welcome extends React.Component {
           <img src={bubbles} alt="" className={css.bubbles} />
           <p  className={css.hello}> Hello Jane, </p>
           <p className={css.wel}> Welcome to our Community! </p>
-
         </div>
 
 

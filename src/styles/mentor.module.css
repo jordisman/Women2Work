@@ -1,7 +1,8 @@
 .mentorContainer {
   display: grid;
+  font-family: Roboto;
   grid-template-columns: .7fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 100px 100px 60px 200px 150px 150px 150px 100px;
+  grid-template-rows: 250px 90px 90px 60px 200px 150px 150px 150px 100px;
 }
 
 .item50 {
@@ -14,31 +15,31 @@
   grid-area: top-mentor-intro;
   grid-column: 2/5;
   grid-row: 1/2;
-  background-color: pink;
+  /* background-color: pink; */
 }
 .item52 {
   grid-area: skills;
   grid-column: 2/5;
   grid-row: 2/3;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 .item53 {
   grid-area: hobbies-interests;
   grid-column: 2/5;
   grid-row: 3/4;
-  background-color: rgb(230, 92, 110);
+  /* background-color: rgb(230, 92, 110); */
 }
 .item54 {
   grid-area: events-title;
   grid-column: 2/5;
   grid-row: 4/5;
-  background-color: rgb(250, 176, 17);
+  /* background-color: rgb(250, 176, 17); */
 }
 .item55 {
   grid-area: event-1;
   grid-column: 2/3;
   grid-row: 5/6;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .item56 {
   grid-area: event-2;
@@ -87,4 +88,79 @@
   grid-column: 3/5;
   grid-row: 8/9;
   background-color: rgb(139, 57, 122);
+}
+
+
+.topWrap {
+  width: 70%;
+  margin: 70px 0 0 50px;
+}
+
+.topTitle {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.yellowCircleWrap {
+  margin: -40px 0 0 -50px;
+  position: absolute;
+  /* To push circle to background */
+  z-index: -1;
+}
+
+.yellowCircle {
+  width: 200px;
+}
+
+.skills {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 0 50px;
+}
+
+ul {
+  margin-left: 10px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 6px;
+  font-size: 11px;
+  height: 20px;
+  width: 85px;
+  background-color: #FFF6A4;
+  border-radius: 25px;
+}
+
+.hobbies {
+  background-color: #DCF4F8;
+}
+
+.eventTitle {
+  font-size: 18px;
+  font-weight: 450;
+  margin-left: 20px;
+}
+
+.floatRight {
+  float: right;
+  color: #F55E61;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.eventWrap {
+  width: 90%;
+  margin: auto;
+}
+
+.eventPic {
+  overflow: hidden;
+  border-radius: 3px;
+  width: 99%;
+
 }
