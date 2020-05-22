@@ -46,9 +46,9 @@ class Mentor extends React.Component {
           <div className={css.item52}>
             <p className={css.skills}>Skills</p>
             <ul>
-              <li>Tags</li>
-              <li>Front End</li>
-              <li>Back End</li>
+              <li className={css.list}>Tags</li>
+              <li className={css.list}>Front End</li>
+              <li className={css.list}>Back End</li>
             </ul>
           </div>
 
@@ -69,18 +69,34 @@ class Mentor extends React.Component {
           </div>
 
           <div className={css.item55}>
-            <div className={css.eventWrap}>
-              <img src={event3} alt="event" className={css.eventPic} />
-              <p>Tues, 10:00am 5/5</p>
-              <p>Speaker seriew for business leaders</p>
+            <div className={`${css.eventWrap} ${css.floatRight}`}>
+              <div className={css.eventPicWrap}>
+                <img src={event3} alt="event" className={css.eventPic} />
+              </div>
+              <p className={css.redText}>Tues, 10:00am 5/5</p>
+              <p className={css.eventText}>Speaker seriew for business leaders</p>
             </div>
           </div>
 
-          <div className={css.item56}>56 Event 2
-
+          <div className={css.item56}>
+            <div className={css.eventWrap}>
+              <div className={css.eventPicWrap}>
+                <img src={event2} alt="event" className={`${css.eventPic}`} />
+              </div>
+              <p className={css.redText}>Wed, 9:00am 5/12</p>
+              <p className={css.eventText}>Networking series for business leaders</p>
+            </div>
           </div>
 
-          <div className={css.item57}>57 Event 3</div>
+          <div className={css.item57}>
+            <div className={`${css.eventWrap} ${css.floatLeft}`} >
+              <div className={css.eventPicWrap}>
+                <img src={event1} alt="event" className={`${css.eventPic}`} />
+              </div>
+              <p className={css.redText}>Mon, 11:00am 5/19</p>
+              <p className={css.eventText}>Leadership series for Product managers</p>
+            </div>
+          </div>
 
           <div className={css.item58}>58</div>
 

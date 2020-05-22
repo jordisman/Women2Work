@@ -1,8 +1,8 @@
 .mentorContainer {
   display: grid;
   font-family: Roboto;
-  grid-template-columns: .7fr 1fr 1fr 1fr;
-  grid-template-rows: 250px 90px 90px 60px 200px 150px 150px 150px 100px;
+  grid-template-columns: .7fr 1fr 1fr 1fr .35fr;
+  grid-template-rows: 250px 90px 90px 60px 340px 150px 150px 150px 100px;
 }
 
 .item50 {
@@ -45,13 +45,13 @@
   grid-area: event-2;
   grid-column: 3/4;
   grid-row: 5/6;
-  background-color: rgb(81, 192, 37);
+  /* background-color: rgb(81, 192, 37); */
 }
 .item57 {
   grid-area: event-3;
   grid-column: 4/5;
   grid-row: 5/6;
-  background-color: rgb(85, 204, 204);
+  /* background-color: rgb(85, 204, 204); */
 }
 .item58 {
   grid-area: recommendations-1-profile;
@@ -120,11 +120,7 @@
   margin: 0 0 0 50px;
 }
 
-ul {
-  margin-left: 10px;
-}
-
-li {
+.list {
   display: inline-block;
   text-align: center;
   margin-right: 10px;
@@ -137,30 +133,57 @@ li {
 }
 
 .hobbies {
+  composes: list;
   background-color: #DCF4F8;
 }
 
 .eventTitle {
   font-size: 18px;
   font-weight: 450;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .floatRight {
   float: right;
   color: #F55E61;
   font-size: 14px;
-  margin-right: 20px;
+  margin-right: 55px;
 }
 
 .eventWrap {
   width: 90%;
   margin: auto;
+  /* border: 1px solid blue; */
+}
+
+.eventPicWrap {
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid green; */
 }
 
 .eventPic {
   overflow: hidden;
   border-radius: 3px;
   width: 99%;
+}
 
+.redText {
+  font-size: 14px;
+  margin: 10px 0 0 20px;
+  color: #F55E61;
+}
+
+.eventText {
+  font-size: 12px;
+  margin: 5px 0 0 20px;
+  color: black;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
 }

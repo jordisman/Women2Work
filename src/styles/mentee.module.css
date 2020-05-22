@@ -223,20 +223,28 @@
   width: 70%;
   margin: auto;
   text-align: left;
+  /* border: 2px solid red; */
 }
 
 .sponserTitle {
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.eventPicWrap {
+  /* border: 2px solid green; */
 }
 
 .eventPic {
   overflow: hidden;
   border-radius: 10px;
   width: 99%;
-  margin-top: 20px;
+  margin: auto;
 }
 
 .redText {
+  font-size: 14px;
   color: #F55E61;
 }
 
