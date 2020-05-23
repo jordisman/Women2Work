@@ -15,7 +15,7 @@ import pic7 from '../images/pic7.png';
 import pic8 from '../images/pic8.png';
 import event1 from '../images/event1.png';
 import event2 from '../images/event2.jpg';
-import event3 from '../images/event3.png';
+import event3 from '../images/event3.jpeg';
 import yellowCircle from '../images/yellowCircle.png';
 
 // How it works, view our Mentors
@@ -100,7 +100,7 @@ class Mentee extends React.Component {
             </div>
           </div>
 
-
+          {/* Mentors */}
 
           <div className={css.item24}>
             <div className={css.boxRed}>

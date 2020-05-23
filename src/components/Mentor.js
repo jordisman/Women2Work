@@ -3,19 +3,15 @@ import {NavLink} from 'react-router-dom';
 import css from '../styles/mentor.module.css';
 import NavbarMember from './NavbarMember';
 import Footer from './Footer';
-
-import bubbles from '../images/dots.png';
-import pic1 from '../images/pic1.png';
 import pic2 from '../images/pic2.jpg';
 import pic3 from '../images/pic3.png';
 import pic4 from '../images/pic4.png';
-import pic5 from '../images/pic5.png';
-import pic6 from '../images/pic6.png';
-import pic7 from '../images/pic7.png';
-import pic8 from '../images/pic8.png';
+import liz from '../images/liz.jpg';
+import jen from '../images/jen.jpg';
+import sam from '../images/sam.jpg';
 import event1 from '../images/event1.png';
 import event2 from '../images/event2.jpg';
-import event3 from '../images/event3.png';
+import event3 from '../images/event3.jpeg';
 import yellowCircle from '../images/yellowCircle.png';
 
 // Hi, I'm Sophia
@@ -85,7 +81,8 @@ class Mentor extends React.Component {
               </div>
               <p className={css.redText}>Wed, 9:00am 5/12</p>
               <p className={css.eventText}>Networking series for business leaders</p>
-            </div>
+             </div>
+            <div className={css.viewEvent}>View More Events</div>
           </div>
 
           <div className={css.item57}>
@@ -98,17 +95,46 @@ class Mentor extends React.Component {
             </div>
           </div>
 
-          <div className={css.item58}>58</div>
+          <div className={css.item58}>
+            <div className={css.eventTitle}>Recommendations</div>
+          </div>
 
-          <div className={css.item59}>59</div>
+          <div className={css.item59}>
+            <div className={css.picLeft}>
+              <div className={css.profileCrop}>
+                <img src={liz} alt="" className={`${css.profilePic} ${css.marginLeft}`}  />
+              </div>
+              <p className={css.nameTitle}>
+                Liz Doe <br />Software Engineer
+              </p>
+            </div>
+          </div>
 
-          <div className={css.item60}>60</div>
+          <div className={css.item60}>
+            <div className={css.picLeft}>
+              <div className={css.profileCrop}>
+                <img src={jen} alt="" className={css.jen}  />
+              </div>
+              <p className={css.nameTitle}>
+                Jen Doe <br />Jr. Software Engineer
+              </p>
+            </div>
+          </div>
 
-          <div className={css.item61}>61</div>
+          <div className={css.item61}>
+            <div className={css.picLeft}>
+              <div className={css.profileCrop}>
+                <img src={sam} alt="" className={css.jen}  />
+              </div>
+              <p className={css.nameTitle}>
+                Jennifer Doe <br />Jr. Web Developer
+              </p>
+            </div>
+          </div>
 
           <div className={css.item62}>62</div>
 
-          <div className={css.item63}>63</div>
+
         </div>
         <Footer />
       </div>

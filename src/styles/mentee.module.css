@@ -55,56 +55,6 @@
   /* background-color: rgb(195, 240, 71); */
 }
 
-    .janeProfile {
-      font-family: PT sans;
-      font-size: 18px;
-      color: #525252;
-      width: 70%;
-      border: 1px solid #EEEEEE;
-      box-sizing: border-box;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 10px;
-      margin: 40px auto;
-    }
-
-    .profileCrop {
-      border-radius: 50%;
-      overflow: hidden;
-      width: 130px;
-      height: 130px;
-      margin: 20px auto;
-      /* border: 1px solid blue; */
-    }
-
-    .janePic {
-      height: 210px;
-      /* border: 1px solid rgb(128, 0, 122); */
-    }
-
-    .nameTitle {
-      text-align: center;
-    }
-
-    .borderBottom {
-      border-bottom: 2px solid rgb(218, 216, 216);
-      position: relative;
-      width: 90%;
-      margin: 25px auto;
-    }
-
-    .memberUl {
-      list-style: none;
-      font-family: PT sans;
-      font-size: 17px;
-      color: grey;
-      margin: 40px auto;
-      overflow: scroll;
-    }
-
-    .memberLi {
-      margin-bottom: 20px;
-    }
-
 .item23 {
   grid-area: advertisement;
   grid-column: 1 / 2;
@@ -258,6 +208,55 @@
 =============== Members =============
 ===================================== */
 
+.janeProfile {
+  font-family: PT sans;
+  font-size: 18px;
+  color: #525252;
+  width: 70%;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 40px auto;
+}
+
+.profileCrop {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 130px;
+  height: 130px;
+  margin: 20px auto;
+  /* border: 1px solid blue; */
+}
+
+.janePic {
+  height: 210px;
+  /* border: 1px solid rgb(128, 0, 122); */
+}
+
+.nameTitle {
+  text-align: center;
+}
+
+.borderBottom {
+  border-bottom: 2px solid rgb(218, 216, 216);
+  position: relative;
+  width: 90%;
+  margin: 25px auto;
+}
+
+.memberUl {
+  list-style: none;
+  font-family: PT sans;
+  font-size: 17px;
+  color: grey;
+  margin: 40px auto;
+  overflow: scroll;
+}
+
+.memberLi {
+  margin-bottom: 20px;
+}
 
 .boxRed {
   width: 80%;
