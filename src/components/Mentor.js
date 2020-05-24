@@ -27,31 +27,33 @@ class Mentor extends React.Component {
           <div className={css.item50}>
             <div className={css.mentor}>Mentor</div>
             <div className={css.mainProfile}>
+
               <div className={css.profileCrop}>
                 <img src={pic3} alt="pic3" className={`${css.profilePic} ${css.sophia}`}/>
               </div>
+
               <p>
-                <sapn className={css.nameTitle}>Sophia Doe</sapn><br />
+                <sapn className={css.mentorName}>Sophia Doe</sapn>
                 Sr. Software Engineer
               </p>
 
               <div className={`${css.space} ${css.borderBtm}`}></div>
 
-              <p className={css.text}>
-                <span className={css.expertiseTitle}> Expertise </span><br / >
+              <p>
+                <span className={css.expertiseTitle}>Expertise</span><br / >
                 Web Development<br />
-                Javascript<br />
+                Javascript
               </p>
 
-              <div className={css.space}> </div>
+              <br />
 
-              <p className={css.text}>
+              <p>
                 <span className={css.expertiseTitle}>1 / 3 </span><br />
                   Mentee Spots Left
               </p>
 
-              <p className={css.text}><br />
-                Typical Mentorship Length<br />6 months
+              <p>
+                <br />Typical Mentorship Length<br />6 months
               </p>
 
               <div className={css.request}>Request</div>

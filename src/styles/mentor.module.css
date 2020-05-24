@@ -240,7 +240,6 @@
   font-size: 16px;
   font-weight: 500;
   display: block;
-  margin-bottom: -16px;
   /* border: 1px solid red; */
 }
 
@@ -363,4 +362,8 @@
   padding-top: 5px;
   color: #F55E61;
   border: 2px solid #F55E61;
+}
+
+.mentorName {
+  composes: nameTitle;
 }
