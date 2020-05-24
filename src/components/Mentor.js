@@ -55,9 +55,9 @@ class Mentor extends React.Component {
               <li className={css.hobbies}>Hiking</li>
               <li className={css.hobbies}>Netflix</li>
             </ul>
-
           </div>
 
+{/* Events */}
           <div className={css.item54}>
             <p className={css.eventTitle}>Events & Workshops with Sophia
               <span className={css.floatRight}>Filter by Upcoming Events</span>
@@ -99,41 +99,75 @@ class Mentor extends React.Component {
             <div className={css.eventTitle}>Recommendations</div>
           </div>
 
+{/* Liz */}
           <div className={css.item59}>
-            <div className={css.picLeft}>
-              <div className={css.profileCrop}>
-                <img src={liz} alt="" className={`${css.profilePic} ${css.marginLeft}`}  />
+            <div className={`${css.recommend} ${css.one}`}>
+
+              <div className={css.commentWrap}>
+                <p className={css.comment}>
+                  {`“OMG, i just love her.I feel, you are never too experienced to be mentored!"`}
+                </p>
+                <p className={css.like}>
+                  <span className={css.heart}>&#9829;</span>21 Likes
+                </p>
               </div>
-              <p className={css.nameTitle}>
-                Liz Doe <br />Software Engineer
-              </p>
+
+              <div className={css.mentee}>
+                <div className={css.profileCrop}>
+                  <img src={liz} alt="liz" className={`${css.profilePic} ${css.marginLeft}`} />
+                </div>
+                <p className={css.nameTitle}>
+                  Liz Doe <br />Software Engineer
+                </p>
+              </div>
             </div>
           </div>
 
+{/* Jen */}
           <div className={css.item60}>
-            <div className={css.picLeft}>
-              <div className={css.profileCrop}>
-                <img src={jen} alt="" className={css.jen}  />
+            <div className={`${css.recommend} ${css.two}`}>
+
+              <div className={css.commentWrap}>
+                <p className={css.comment}>
+                  {'“At first, I was very stubborn. But I have to admit that the rewritten piece...'}
+                </p>
+                <p className={css.like}>
+                  <span className={css.heart}>&#9829;</span>21 Likes
+                </p>
               </div>
-              <p className={css.nameTitle}>
-                Jen Doe <br />Jr. Software Engineer
-              </p>
+
+              <div className={css.mentee}>
+                <div className={css.profileCrop}>
+                  <img src={jen} alt="jen" className={css.jen}  />
+                </div>
+                <p className={css.nameTitle}>
+                  Jen Doe <br />Jr. Software Engineer
+                </p>
+              </div>
             </div>
           </div>
 
+{/* Sam */}
           <div className={css.item61}>
-            <div className={css.picLeft}>
-              <div className={css.profileCrop}>
-                <img src={sam} alt="" className={css.jen}  />
+            <div className={`${css.recommend} ${css.three}`}>
+              <div className={css.commentWrap}>
+                <p className={css.comment}>
+                  {'“Sophia really helped me see which skills I could upgrade and the best way...'}
+                </p>
+                <p className={css.like}>
+                  <span className={css.heart}>&#9829;</span>21 Likes
+                </p>
               </div>
-              <p className={css.nameTitle}>
-                Jennifer Doe <br />Jr. Web Developer
-              </p>
+              <div className={css.mentee}>
+                <div className={css.profileCrop}>
+                  <img src={sam} alt="sam" className={css.jen}  />
+                </div>
+                <p className={css.nameTitle}>
+                  Sam Doe <br />Jr. Web Developer
+                </p>
+              </div>
             </div>
           </div>
-
-          <div className={css.item62}>62</div>
-
 
         </div>
         <Footer />

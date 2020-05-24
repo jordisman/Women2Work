@@ -2,7 +2,7 @@
   display: grid;
   font-family: Roboto;
   grid-template-columns: .7fr 1fr 1fr 1fr .35fr;
-  grid-template-rows: 250px 90px 90px 60px 340px 40px 180px 180px 180px 100px;
+  grid-template-rows: 250px 90px 90px 60px 300px 40px 180px 180px 180px 100px;
 }
 
 .item50 {
@@ -127,6 +127,12 @@
   background-color: #DCF4F8;
 }
 
+
+/* ===============================
+=============== Event ============
+================================== */
+
+
 .eventTitle {
   font-size: 18px;
   font-weight: 450;
@@ -190,6 +196,19 @@
   border: 2px solid #F55E61;
 }
 
+
+/* ===============================
+========= Recommentations ========
+================================== */
+
+
+.mentee {
+  width: 25%;
+  height: 100%;
+  margin: 0 0 0 30px;
+  /* border: 1px solid yellowgreen; */
+}
+
 .profileCrop {
   border-radius: 50%;
   overflow: hidden;
@@ -215,15 +234,59 @@
   height: 130px;
 }
 
-.picLeft {
-  width: 25%;
-  height: 100%;
-  margin: 0 0 0 30px;
-  border: 1px solid yellowgreen;
-}
-
 .nameTitle {
   text-align: center;
   font-size: 12px;
+  font-weight: 500;
   display: block;
+}
+
+.recommend {
+  border-radius: 10px;
+  margin-left: 30px;
+  color: #635858;
+}
+
+.one {
+  composes: recommend;
+  border: 3px solid #DCF4F8;
+  box-shadow: 0px 2px 0px #DCF4F8;
+}
+
+.two {
+  composes: recommend;
+  border: 3px solid #F5EDED;
+  box-shadow: 0px 2px 0px #F5EDED;
+}
+
+.three {
+  composes: recommend;
+  border: 3px solid #FFF699;
+  box-shadow: 0px 2px 0px #F5EDED;
+}
+
+.commentWrap {
+  width: 65%;
+  float: right;
+  /* border: 1px solid red; */
+}
+
+.comment {
+  width: 75%;
+  margin: 12% auto;
+  /* font-weight: lighter;  */
+  /* border: 1px solid blue; */
+}
+
+.heart {
+  font-size: 25px;
+  color: red;
+  margin-right: 5px;
+  /* border: 1px solid blue; */
+}
+
+.like {
+  margin: -25px 20px 0 0;
+  float: right;
+  /* border: 1px solid green; */
 }
