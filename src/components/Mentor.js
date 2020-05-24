@@ -14,7 +14,7 @@ import event2 from '../images/event2.jpg';
 import event3 from '../images/event3.jpeg';
 import yellowCircle from '../images/yellowCircle.png';
 
-// Hi, I'm Sophia
+// Hi, I'm Sophia -- Mentor
 
 class Mentor extends React.Component {
   render() {
@@ -23,9 +23,43 @@ class Mentor extends React.Component {
         <NavbarMember />
         <div className={css.mentorContainer}>
 
-          <div className={css.item50}>50
-            <div>Profile</div>
+{/* Sophia's Profile */}
+          <div className={css.item50}>
+            <div className={css.mentor}>Mentor</div>
+            <div className={css.mainProfile}>
+              <div className={css.profileCrop}>
+                <img src={pic3} alt="pic3" className={`${css.profilePic} ${css.sophia}`}/>
+              </div>
+              <p>
+                <sapn className={css.nameTitle}>Sophia Doe</sapn><br />
+                Sr. Software Engineer
+              </p>
+
+              <div className={`${css.space} ${css.borderBtm}`}></div>
+
+              <p className={css.text}>
+                <span className={css.expertiseTitle}> Expertise </span><br / >
+                Web Development<br />
+                Javascript<br />
+              </p>
+
+              <div className={css.space}> </div>
+
+              <p className={css.text}>
+                <span className={css.expertiseTitle}>1 / 3 </span><br />
+                  Mentee Spots Left
+              </p>
+
+              <p className={css.text}><br />
+                Typical Mentorship Length<br />6 months
+              </p>
+
+              <div className={css.request}>Request</div>
+              <div className={css.msg}>Message</div>
+            </div>
           </div>
+
+{/* Top */}
 
           <div className={css.item51}>
             <div className={css.topWrap}>
