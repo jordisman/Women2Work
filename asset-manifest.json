@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/women2work/static/css/main.d2f4ce9c.chunk.css",
-    "main.js": "/women2work/static/js/main.1d22aeab.chunk.js",
-    "main.js.map": "/women2work/static/js/main.1d22aeab.chunk.js.map",
+    "main.css": "/women2work/static/css/main.4b3f36c6.chunk.css",
+    "main.js": "/women2work/static/js/main.1cf1195d.chunk.js",
+    "main.js.map": "/women2work/static/js/main.1cf1195d.chunk.js.map",
     "runtime-main.js": "/women2work/static/js/runtime-main.ac5cd851.js",
     "runtime-main.js.map": "/women2work/static/js/runtime-main.ac5cd851.js.map",
     "static/js/2.90aadb43.chunk.js": "/women2work/static/js/2.90aadb43.chunk.js",
     "static/js/2.90aadb43.chunk.js.map": "/women2work/static/js/2.90aadb43.chunk.js.map",
     "index.html": "/women2work/index.html",
-    "precache-manifest.181f8ce562599653a8107f46c61cb15c.js": "/women2work/precache-manifest.181f8ce562599653a8107f46c61cb15c.js",
+    "precache-manifest.a86e51406331f4d599497c7ce3763e2f.js": "/women2work/precache-manifest.a86e51406331f4d599497c7ce3763e2f.js",
     "service-worker.js": "/women2work/service-worker.js",
-    "static/css/main.d2f4ce9c.chunk.css.map": "/women2work/static/css/main.d2f4ce9c.chunk.css.map",
+    "static/css/main.4b3f36c6.chunk.css.map": "/women2work/static/css/main.4b3f36c6.chunk.css.map",
     "static/js/2.90aadb43.chunk.js.LICENSE.txt": "/women2work/static/js/2.90aadb43.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/women2work/static/media/Logo.ee64b6d5.png",
     "static/media/badge.png": "/women2work/static/media/badge.8cfcad2e.png",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac5cd851.js",
     "static/js/2.90aadb43.chunk.js",
-    "static/css/main.d2f4ce9c.chunk.css",
-    "static/js/main.1d22aeab.chunk.js"
+    "static/css/main.4b3f36c6.chunk.css",
+    "static/js/main.1cf1195d.chunk.js"
   ]
 }
