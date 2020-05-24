@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c7ad28e1e032182eeba4f927bdb091d",
+    "revision": "c8616a1cb50c755ffe2c294b75ded702",
     "url": "/women2work/index.html"
   },
   {
-    "revision": "866959e56db5adb25822",
-    "url": "/women2work/static/css/main.06200abe.chunk.css"
+    "revision": "74a2827dbe0cdd070b5b",
+    "url": "/women2work/static/css/main.d2f4ce9c.chunk.css"
   },
   {
-    "revision": "3d2f85ad3231af4f5403",
-    "url": "/women2work/static/js/2.940d6a85.chunk.js"
+    "revision": "fe476c0e4a3c9e20ff98",
+    "url": "/women2work/static/js/2.90aadb43.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/women2work/static/js/2.940d6a85.chunk.js.LICENSE.txt"
+    "url": "/women2work/static/js/2.90aadb43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "866959e56db5adb25822",
-    "url": "/women2work/static/js/main.41cd5af5.chunk.js"
+    "revision": "74a2827dbe0cdd070b5b",
+    "url": "/women2work/static/js/main.1d22aeab.chunk.js"
   },
   {
     "revision": "c069a4a7056549e3402b",
