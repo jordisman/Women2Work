@@ -8,7 +8,8 @@ import faces from '../images/faces.png';
 import match from '../images/match.png';
 import calendar from '../images/calendar.png';
 import badge from '../images/badge.png';
-import dots from '../images/dots.png';
+import dots2 from '../images/dots2.png';
+import more from '../images/more.png';
 import star from '../images/star.png';
 import pinkCircle from '../images/pinkCircle.png';
 
@@ -45,6 +46,16 @@ class LandingPage extends React.Component {
 
           <div className={styles.itemB}>
             <img src={faces} alt="faces" className={styles.faces} />
+          </div>
+
+          <div className={styles.itemX}>
+            <div className={styles.dots2Div}>
+              <img src={dots2} alt="" className={styles.dots2} />
+            </div>
+            <div className={styles.moreDiv}>
+              <p>Learn More</p>
+              <img src={more} alt="" className={styles.more} />
+            </div>
           </div>
 
           <div className={styles.itemC}>

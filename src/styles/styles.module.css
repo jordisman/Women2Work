@@ -6,152 +6,177 @@ body {
   display: grid;
   font-family: Roboto;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 850px 380px 420px;
+  grid-template-rows: 800px 300px 380px 420px 80px;
 }
 
 .itemA {
   grid-area: mission;
   font-family: Rubik;
-  /* background-color: rgb(245, 204, 142); */
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   margin: auto 14px auto 125px;
+  /* background-color: rgb(245, 204, 142); */
 }
 
-.itemA h1 {
-  font-size: 65px;
-  margin-bottom: 0;
-}
+  .itemA h1 {
+    font-size: 65px;
+    margin-bottom: 0;
+  }
 
-.red {
-  color: #F55E61;
-  font-size: 22px;
-  font-family: Roboto;
-  margin: 5px 0 20px 30px;
-}
+  .red {
+    color: #F55E61;
+    font-size: 22px;
+    font-family: Roboto;
+    margin: 5px 0 20px 30px;
+  }
 
-.missionText {
-  font-family: Roboto Light;
-  font-size: 20px;
-  width: 80%;
-  margin: 0 0 0 30px;
-}
+  .missionText {
+    font-family: Roboto Light;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 0 0 30px;
+  }
 
-.start {
-  height: 35px;
-  width: 220px;
-  background-color: #F55E61;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  margin: 30px 0 0 30px;
-  padding-top: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
-}
+  .start {
+    height: 35px;
+    width: 220px;
+    background-color: #F55E61;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0 0 30px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
 
-.featText {
-  font-family: Roboto Light;
-  font-size: 15px;
-  width: 80%;
-  margin-top: -10px;
-}
+  .featText {
+    font-family: Roboto Light;
+    font-size: 15px;
+    width: 80%;
+    margin-top: -10px;
+  }
 
-.faces {
+.itemB {
   grid-area: photo;
-  /* background-color: rgb(215, 245, 250); */
   grid-column: 2 / 4;
   grid-row: 1 / 2;
-  margin: 160px 0 0 30px;
-  height: 60%;
-  position: absolute;
-
 }
+
+  .faces {
+    margin: 160px 0 0 30px;
+    height: 60%;
+    position: absolute;
+    /* background-color: rgb(215, 245, 250); */
+  }
 
 .itemC {
   grid-area: features;
-  /* background-color: rgb(213, 176, 248); */
   font-family: Roboto;
   grid-column: 1 / 2;
-  grid-row: 2 / 4;
+  grid-row: 3 / 5;
   margin: auto 15px auto 250px;
   width: 50%;
+  /* background-color: rgb(213, 176, 248); */
 }
 
 .itemD {
   grid-area: feat1;
-  /* background-color: rgb(244, 247, 211); */
   grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
   width: 80%;
+  /* background-color: rgb(244, 247, 211); */
 }
 
-.itemD img {
-  width: 200px;
-}
+  .itemD img {
+    width: 200px;
+  }
 
 .itemE {
   grid-area: feat2;
   /* background-color: rgb(248, 253, 169); */
   grid-column: 3 / 4;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
   width: 80%;
   margin-left: -40px;
 }
 
-.itemE img {
-  width: 200px;
-}
+  .itemE img {
+    width: 200px;
+  }
 
 .itemF {
   grid-area: feat3;
   /* background-color: rgb(204, 203, 140); */
   grid-column: 2 / 3;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
   width: 80%;
 }
 
-.itemF img {
-  width: 200px;
-}
+  .itemF img {
+    width: 200px;
+  }
 
 .itemG {
   grid-area: feat4;
   /* background-color: rgb(241, 230, 179); */
   grid-column: 3 / 4;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
   width: 80%;
   margin-left: -40px;
 }
 
-.itemG img {
-  width: 200px;
+  .itemG img {
+    width: 200px;
+  }
+
+  .button {
+    /* background-color: #4caf50; */
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 30px;
+  }
+
+  .bigCircle {
+    margin: -120px 0 0 -250px;
+    position: absolute;
+    /* To push circle to background */
+    z-index: -1;
+  }
+
+  .pinkCircle {
+    height: 500px;
+  }
+
+.itemX {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  /* background-color: yellow; */
 }
 
-.button {
-  /* background-color: #4caf50; */
-  /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 4px;
-  font-size: 16px;
-  margin: 30px;
-}
+  .dots2 {
+    width: 200px;
+    margin-left: 100px;
+  }
 
-.bigCircle {
-  margin: -120px 0 0 -250px;
-  position: absolute;
-  /* To push circle to background */
-  z-index: -1;
-}
+  .moreDiv{
+    text-align: center;
+    margin: -150px auto;
+    color: #F55E61;
+    line-height: 0;
+    font-size: 16px;
+  }
 
-.pinkCircle {
-  height: 500px;
-}
+  .more {
+    width: 80px;
+  }
 
 
 /* ==========================================
