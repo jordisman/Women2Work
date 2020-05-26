@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08d4c2e97204cb8e4f677bfce2d170da",
+    "revision": "4437a181467425b5b29c8b44434b8867",
     "url": "/women2work/index.html"
   },
   {
-    "revision": "6d6b5e4505f7187a2871",
-    "url": "/women2work/static/css/main.541f2446.chunk.css"
+    "revision": "47aeac49296e4dde5c36",
+    "url": "/women2work/static/css/main.a19b4b7f.chunk.css"
   },
   {
     "revision": "fe476c0e4a3c9e20ff98",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/women2work/static/js/2.90aadb43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d6b5e4505f7187a2871",
+    "revision": "47aeac49296e4dde5c36",
     "url": "/women2work/static/js/main.bf87c3f3.chunk.js"
   },
   {

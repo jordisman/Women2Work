@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/women2work/static/css/main.541f2446.chunk.css",
+    "main.css": "/women2work/static/css/main.a19b4b7f.chunk.css",
     "main.js": "/women2work/static/js/main.bf87c3f3.chunk.js",
     "main.js.map": "/women2work/static/js/main.bf87c3f3.chunk.js.map",
     "runtime-main.js": "/women2work/static/js/runtime-main.ac5cd851.js",
@@ -8,9 +8,9 @@
     "static/js/2.90aadb43.chunk.js": "/women2work/static/js/2.90aadb43.chunk.js",
     "static/js/2.90aadb43.chunk.js.map": "/women2work/static/js/2.90aadb43.chunk.js.map",
     "index.html": "/women2work/index.html",
-    "precache-manifest.ec5af3dbf650384037ddafc353b74ed3.js": "/women2work/precache-manifest.ec5af3dbf650384037ddafc353b74ed3.js",
+    "precache-manifest.69fd4a0fd452f23cfdb85448b6286bda.js": "/women2work/precache-manifest.69fd4a0fd452f23cfdb85448b6286bda.js",
     "service-worker.js": "/women2work/service-worker.js",
-    "static/css/main.541f2446.chunk.css.map": "/women2work/static/css/main.541f2446.chunk.css.map",
+    "static/css/main.a19b4b7f.chunk.css.map": "/women2work/static/css/main.a19b4b7f.chunk.css.map",
     "static/js/2.90aadb43.chunk.js.LICENSE.txt": "/women2work/static/js/2.90aadb43.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/women2work/static/media/Logo.ee64b6d5.png",
     "static/media/badge.png": "/women2work/static/media/badge.8cfcad2e.png",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.ac5cd851.js",
     "static/js/2.90aadb43.chunk.js",
-    "static/css/main.541f2446.chunk.css",
+    "static/css/main.a19b4b7f.chunk.css",
     "static/js/main.bf87c3f3.chunk.js"
   ]
 }
