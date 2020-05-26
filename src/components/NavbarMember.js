@@ -11,8 +11,9 @@ const NavbarMember = () => {
 
   return (
     <div className={styles.navbar}>
-      <img className={styles.logo} src={logo} alt="" />
-
+      <NavLink to="/">
+        <img className={styles.logo} src={logo} alt="" />
+      </NavLink>
       <div className={styles.search}>
         <p className={styles.searchText}>Search for mentors or events...
           <span className={styles.magnifier}>&#9740;</span>

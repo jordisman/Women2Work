@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
-      <img className={styles.logo} src={logo} />
+      <NavLink to="/">
+        <img className={styles.logo} src={logo} />
+      </NavLink>
 
       <ul className={styles.navUl}>
         <li className={styles.navLi}>
