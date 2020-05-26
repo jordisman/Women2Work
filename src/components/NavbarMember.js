@@ -17,29 +17,30 @@ const NavbarMember = () => {
         <p className={styles.searchText}>Search for mentors or events...
           <span className={styles.magnifier}>&#9740;</span>
         </p>
-
       </div>
 
-
-
-
-      <ul className={styles.navUl}>
-        <li className={styles.navLi}>
+      <ul className={styles.Ul}>
+        <li className={styles.Li}>
           <NavLink to="/" style={{ ...underline, ...textColor }}>
             About
           </NavLink>
         </li>
-        <li className={styles.navLi}>
+        <li className={styles.Li}>
           <NavLink to="Signin" style={{ ...underline, ...textColor }}>
             Inbox
           </NavLink>
         </li>
-        <li className={` ${styles.navLi} `}>
-          <NavLink to="Signup" style={{ ...underline, ...textColor }}>
+        <li className={styles.Li}>
+          <NavLink to="mentor" style={{ ...underline, ...textColor }}>
+          <div className={styles.profileCrop}>
             <img src={pic1} className={styles.miniProfile} />
+          </div>
           </NavLink>
         </li>
       </ul>
+
+
+
 
     </div>
   );
